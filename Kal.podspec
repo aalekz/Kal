@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'src', 'src/**/*.{h,m}'
+  s.source_files = 'src/**/*.{h,m}'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # Also allows the use of the FileList class like `source_files does.
   #
   # s.resource = "icon.png"
-  s.resources = "src/Kal.bundle"
+  # s.resources = "src/Kal.bundle"
 
   # A list of paths to remove after installing the Pod without the
   # `--no-clean' option. These can be examples, docs, and any other type
