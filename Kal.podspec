@@ -15,9 +15,10 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/aalekz/Kal.git' }
 
   s.description = 'A calendar component for the iPhone.'
+  s.platform = :ios
+
   s.platform     = :ios, '4.0'
-  s.source_files = 'Kal/*.{h,m}'
-  s.resources    = "Kal/*.png"
+  s.source_files = 'src/**/*.{h,m}'
   s.framework    = 'UIKit'
   s.requires_arc = false
 
